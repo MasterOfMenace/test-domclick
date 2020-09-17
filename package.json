@@ -1,0 +1,25 @@
+{
+  "name": "test-domclick",
+  "version": "1.0.0",
+  "description": "Test task Domclick",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint",
+    "start": "webpack-dev-server"
+  },
+  "author": "MasterOofMenace",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-htmlacademy": "^0.6.0",
+    "eslint-plugin-react": "^7.20.6",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
