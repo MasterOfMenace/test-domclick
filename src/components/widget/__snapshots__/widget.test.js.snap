@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Viget component render correctly 1`] = `
+exports[`Widget component render correctly 1`] = `
 <div
   className="container"
 >

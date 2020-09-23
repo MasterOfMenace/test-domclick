@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Viget from './components/viget/viget.jsx';
+import Widget from './components/widget/widget.jsx';
 
 ReactDOM.render(
-    <Viget
+    <Widget
       start={5}
       min={0}
       max={10}

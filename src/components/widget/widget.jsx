@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './viget.css';
+import styles from './widget.css';
 
 const STEP = 1;
 
-class Viget extends React.Component {
+class Widget extends React.Component {
   constructor(props) {
     super(props);
 
@@ -107,11 +107,11 @@ class Viget extends React.Component {
   }
 }
 
-Viget.propTypes = {
+Widget.propTypes = {
   start: PropTypes.number,
   max: PropTypes.number,
   min: PropTypes.number,
   onChange: PropTypes.func,
 };
 
-export default Viget;
+export default Widget;
