@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Viget from './viget.jsx';
+import Viget from './components/viget/viget.jsx';
 
 ReactDOM.render(
     <Viget

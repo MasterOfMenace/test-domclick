@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './viget.css';
 
 const STEP = 1;
 
@@ -70,6 +71,7 @@ class Viget extends React.Component {
 
     return (
       <button
+        className={styles.button}
         onClick={this.getButtonClickHandler(sign)}
       >{text}</button>
     );
@@ -81,6 +83,7 @@ class Viget extends React.Component {
 
     return (
       <input
+        className={styles.input}
         type="number"
         value={value}
         max={max}
@@ -95,7 +98,7 @@ class Viget extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={styles.container}>
         {this.renderButton(`minus`)}
         {this.renderInput()}
         {this.renderButton(`plus`)}
