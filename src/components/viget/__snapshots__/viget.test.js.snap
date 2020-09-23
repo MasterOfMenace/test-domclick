@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Viget component render correctly 1`] = `
-<div>
+<div
+  className="container"
+>
   <button
+    className="button"
     onClick={[Function]}
   >
     -
   </button>
   <input
+    className="input"
     max={10}
     min={0}
     onBlur={[Function]}
@@ -17,6 +21,7 @@ exports[`Viget component render correctly 1`] = `
     value={2}
   />
   <button
+    className="button"
     onClick={[Function]}
   >
     +
